@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>鹏城实验室</title>
+
+        <!-- CSS -->
+        <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500"> -->
+        <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/static/assets/css/form-elements.css">
+        <link rel="stylesheet" href="/static/assets/css/style.css">
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="/static/assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/static/assets/ico/apple-touch-icon-57-precomposed.png">
+    </head>
+
+    <body>
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                    	<div class="col-sm-3">
+                    		&nbsp;
+                    	</div>
+                        <div class="col-sm-6 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3 style="color: yellow;">进入实验室人数</h3>
+                        		</div>
+                        		<!-- <div class="form-top-right">
+                        			<i class="fa fa-pencil"></i>
+                        		</div> -->
+                            </div>
+                            <div class="form-bottom">
+			                    <form role="form" action="" method="post" class="registration-form">
+			                    	<div class="form-group">
+			                    		<!-- <span style="color: white;">请输入id：</span> -->
+			                    		<!-- <label class="sr-only" for="form-first-name">First name</label> -->
+			                        	<input type="text" name="date" value="{$date}" class="form-first-name form-control" id="form-first-name">
+			                        </div>
+			                        <button type="submit" class="btn" style="height: 35px; line-height: 35px; padding: 0 15px;">查询</button>
+
+			                        <div class="form-group" style="margin-top: 10px;text-align: center;">
+                                        <span style="color: cyan;font-size: 30px;">{$date}：{$data['0']['num']}人</span><br/>
+			                        </div>
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 1200px; width: 1583px; z-index: -999999; position: fixed;">
+            <img src="/static/assets/img/backgrounds/1.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1583px; height: 1187.25px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -408.125px;" alt="">
+        </div>
+        <!-- Javascript -->
+        <script src="/static/assets/js/jquery-1.11.1.min.js"></script>
+        <script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="/static/assets/js/jquery.backstretch.min.js"></script> -->
+        <script src="/static/assets/js/retina-1.1.0.min.js"></script>
+        <script src="/static/assets/js/scripts.js"></script>
+    </body>
+</html>
